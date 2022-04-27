@@ -11,8 +11,6 @@ export class ContadorComponent {
   acumular(value: number) {
     this.numero += value;
     if (this.numero <= 0) this.numero = 0;
-    console.log('hola');
-
     // this.numero <= 0 ? (this.numero = 0) : '';
   }
 }

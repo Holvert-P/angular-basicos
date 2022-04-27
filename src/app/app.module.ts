@@ -7,10 +7,11 @@ import { CountModule } from './contador/Count.module';
 import { HeroeComponent } from './heroes/heroe/heroe.component';
 import { HeroesModule } from './heroes/heroes.module';
 import { ListadoComponent } from './heroes/listado/listado.component';
+import { DbzModule } from './dbz/dbz.module';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, HeroesModule, CountModule],
+  imports: [BrowserModule, HeroesModule, CountModule, DbzModule],
   providers: [],
   bootstrap: [AppComponent],
 })

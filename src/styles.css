@@ -41,3 +41,25 @@ button:focus {
 li {
   list-style: none;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.col {
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.col ul {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  display: block;
+  margin: 5px;
+}
